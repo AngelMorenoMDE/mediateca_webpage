@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;innovaserv_webpage&apos;&#x0D;&#x0A;- Original project: &apos;innovaserv_webpage&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     innovaserv_toolkit_mac.zip&#x0D;&#x0A;     innovaserv_toolkit.zip&#x0D;&#x0A;     jre-8u71-macosx-x64.dmg&#x0D;&#x0A;     jre-8u71-windows-x64.exe" description="Delete elements" element1="downloads/innovaserv_toolkit.zip" element2="downloads/jre-8u71-macosx-x64.dmg" element3="downloads/jre-8u71-windows-x64.exe" element4="downloads/innovaserv_toolkit_mac.zip" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="4" stamp="1456994385637" subPackages="false" version="1.0"/>
+</session>

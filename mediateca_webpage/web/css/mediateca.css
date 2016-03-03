@@ -1,0 +1,198 @@
+@CHARSET "UTF-8";
+
+.updowncounter
+{
+	width:50px;
+}
+
+.date_s_year
+{
+		width:50px;
+}
+
+.date_e_year
+{
+		width:50px;
+}
+
+.date_s_day
+{
+		width:25px;
+}
+
+.date_e_day
+{
+		width:25px;
+}
+
+.date_s_month
+{
+	width:80px;
+}
+
+.date_e_month
+{
+	width:80px;
+}
+
+.link_btn
+{
+	font-family: 'Abel', sans-serif;
+        font-size: 16px;
+        color:#B5A871;
+	font-weight:bold;
+	border: none; 
+	background: none;
+        
+		
+	
+	padding: 0px;
+}
+.link_btn:hover
+{
+	font-family: 'Abel', sans-serif;
+        font-size: 16px;
+        color:black;
+	font-weight:bold;
+	border: none; 
+	background: none;
+	padding: 0px;
+}
+
+#fbox2_form input[type='text']
+{
+    width: 400px;
+}
+
+.SubmitBtn
+{
+    font-family: 'Abel', sans-serif;
+    margin-top: 10px;
+    font-size: 18px; 
+
+    font-weight:bold;
+    background-color: #B5A871;
+    color:white;
+    border:none;
+}
+
+.SubmitBtn:hover
+{
+    font-family: 'Abel', sans-serif;
+    margin-top: 10px;
+    font-size: 18px; 
+    font-weight:bold;
+
+    background-color: #B5A871;
+    color:black;
+    border:none;
+}
+
+.SubmitBtn2
+{
+    font-family: 'Abel', sans-serif;
+    margin-top: 10px;
+    font-size: 18px; 
+    margin-left: 10px;
+    font-weight:bold;
+    background-color: #B5A871;
+    color:white;
+    border:none;
+}
+
+.SubmitBtn2:hover
+{
+    font-family: 'Abel', sans-serif;
+    margin-top: 10px;
+    font-size: 18px; 
+    font-weight:bold;
+    margin-left: 10px;
+    background-color: #B5A871;
+    color:black;
+    border:none;
+}
+
+.label_textfield
+{
+    
+    font-family: 'Abel', sans-serif;
+    font-size: 16px; 
+    font-weight:bold;   
+    text-spacing: 2px;
+    text-align: right;
+}
+
+.btn_campaing_full_details
+{
+    border:none;
+    text-decoration: underline;
+    font-weight: bold;
+    background:none;
+    width: 400px;
+}
+
+.btn_campaing_full_details:hover
+{
+    border:none;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer; 
+    width: 400px;
+}
+
+.link_full_details
+{
+    color:black;
+}
+
+.link_full_details:hover
+{
+        color: red;
+            cursor: pointer; 
+}
+
+.label_ads
+{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.targetpeople_name_textfield
+{
+    width: 250px;
+}
+
+.advagency_name_textfield
+{
+    width: 250px;
+}
+
+.advertiser_name_textfield
+{
+    width: 250px;
+}
+
+#orderTable
+{
+    border: none;
+}
+#orderTable thead
+{
+    border: none;
+}
+
+#orderTable thead tr
+{
+    border: none;
+}
+
+#orderTable thead tr td
+{
+    border: none;
+}
+
+input[name="search_name"], input[name="search_tag"]
+{
+    width: 320px;
+}

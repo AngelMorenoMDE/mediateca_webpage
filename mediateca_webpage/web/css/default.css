@@ -1,0 +1,959 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+    #menu-user
+    {
+        background-color: black;
+        height: 25px;
+    }
+    #menu-error
+    {
+        background-color: red;
+        height: 50px;
+    }
+    
+    #menu-error-body
+    {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        text-align: center;
+        width: 1024px;
+        height: 25px;
+        color: #ffffff;
+        font-weight: bold;
+        letter-spacing: 0px;
+        font-size: 18px;
+    }
+    
+    #menu-error-body-table
+    {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #menu_error_body_table_span
+    {
+        font-size: 50px;
+    }
+    #menu-user-wellcome
+    {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        text-align: right;
+        width: 1024px;
+        height: 25px;
+        background-color: black;
+        color:#ffffcc;
+        font-weight: bold;
+    }
+    
+    #menu-user-wellcome a
+    {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        text-align: right;
+        width: 1024px;
+        height: 25px;
+        background-color: black;
+        color:#ffffcc;
+        font-weight: bold;
+        text-decoration: none;
+    }    
+    
+    #menu-user-wellcome a:hover
+    {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        text-align: right;
+        width: 1024px;
+        height: 25px;
+        background-color: black;
+        color:red;
+        font-weight: bold;
+        
+        text-decoration: none;
+    }  
+    
+    
+    
+    .menu-user-languages li
+    {
+        display:inline;
+        font-weight: bold;
+    }
+    
+    .menu-user-languages li:hover
+    {
+        color:red;
+        display:inline;
+        font-weight: bold;
+    }   
+body {
+	margin: 0;
+	padding: 0;
+	
+        background: url('../images/carbon.png');
+	font-family: 'Abel', sans-serif;
+	font-size: 15px;
+
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Abel', sans-serif;
+	font-weight: 200;
+	color: #222222;
+}
+
+p, ol, ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+p, ol {
+	line-height: 180%;
+}
+
+strong {
+}
+
+
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignleft {
+	float: left;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+
+}
+
+/** WRAPPER */
+
+#wrapper {
+}
+
+.container {
+	width: 1250px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* Header */
+
+#header-wrapper {
+	overflow: hidden;
+	height: 80px;
+	background: #DEE3E5;
+        border-bottom: black 2px solid;
+}
+
+#header {
+
+	height: 140px;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#logo h1 {
+	padding-top: 5px;
+        padding-left: 80px;
+	background: url(images/img02.png) no-repeat left 50%;
+	font-family: Ubuntu Condensed, cursive;
+	letter-spacing: 3px;
+	font-size: 4.0em;
+        font-weight:bolder;
+        /*text-transform: uppercase;*/
+}
+
+#logo h1 a {
+	text-decoration: none;
+	color: #1B2024;
+}
+
+/* Menu */
+
+#menu {
+    
+	float: right;
+	width: 650px;
+        height: 80px;
+        margin-top: 25px;
+        margin-right: 80px;
+        text-align: right;
+        font-weight: bold;
+        
+        
+}
+
+
+
+/* Page */
+
+#page-wrapper {
+        position: relative;
+        float: bottom;
+	overflow: hidden;
+	background: #F1F2E9;
+}
+
+#page {
+    position: relative;
+	overflow: hidden;
+	width: 1350px;
+	margin: auto;
+	/*padding: 50px 0px;*/
+        padding-top: 25px;
+        padding-bottom: 15px;
+	color: #8F8F8F;
+}
+
+/** CONTENT */
+
+#content {
+	float: right;
+	width: 1000px;
+	padding: 0px 0px 0px 0px;
+}
+
+#content h2 {
+	padding: 0px 0px 30px 0px;
+	letter-spacing: -1px;
+	font-size: 36px;
+	color: #222222;
+}
+
+#content .subtitle {
+	padding: 0px 0px 30px 0px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #81AFC5;
+}
+
+
+/** SIDEBAR */
+
+#sidebar {
+	float: left;
+	width: 290px;
+	padding: 0px 0px 20px 0px;
+}
+
+#sidebar h2 {
+	padding: 0px 0px 30px 0px;
+	letter-spacing: -1px;
+	font-size: 2em;
+}
+
+/* Footer */
+
+#footer {
+            position: relative;
+        float: bottom;
+	height: 100px;
+	margin: 0 auto;
+	padding: 50px 0px 15px 0px;
+	font-family: 'Abel', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color:white;
+}
+
+#footer p {
+	margin: 0;
+	letter-spacing: 1px;
+	line-height: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	color:#DEE3E5;
+}
+
+#footer a {
+	color:blue;
+}
+
+/* Three Column Footer Content */
+
+#footer-wrapper {
+        background: url('../images/paper.png');
+        position: relative;
+        float: bottom;
+	
+}
+
+#fbox2 form table
+{
+    margin-left: 10px;
+
+        font-weight: bold;
+}
+
+#fbox2 #fbox2_table
+{
+    margin-left: 10px;
+}
+#fbox2 p
+{
+    
+    margin-left: 10px;
+    font-size: 1.1em;
+    /*font-weight: bold;*/
+}
+
+#fbox2 table
+{
+    font-size: 1.1em;
+
+}
+
+#footer-content {
+        
+	overflow: hidden;        
+        width: auto;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+	background: url('../images/play.png');
+}
+
+.style2 li form .label_textfield
+{
+    color:black;
+}
+
+#footer-content a {
+}
+
+#footer-content h2 {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: -1px;
+	font-size: 30px;
+
+        font-weight: bold;
+}
+
+#footer-content h2 .list_campaigns_title
+{
+    font-size: 20px;
+}
+
+#footer-content #fbox1 {
+	float: left;
+	width:20%;
+        margin-left: 30px;
+	margin-right: 20px;
+        min-width: 20%;
+        color:white;
+        background-color: #8F8F8F;
+        margin-bottom:20px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+#footer-content #fbox1 hr
+{
+    border-color: white;
+    border-width: 3px;
+    width: 70%;
+}
+
+#footer-content #fbox1 h2{
+
+        color:white;
+        padding-left: 5px;
+}
+#footer-content #fbox1 ul li
+{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-content #fbox1 ul li form table{
+
+        margin-left: 10px;
+        color:white;
+        border:0px;
+        
+}
+#footer-content #fbox1 ul li form table tr{
+
+        margin-left: 10px;
+        color:white;
+        border-bottom: black 2px solid;
+        
+}
+
+#footer-content #fbox2 {
+	float: right;
+	width: 70%;
+	margin-bottom: 40px;
+        margin-right: 20px;
+        padding-left: 20px;
+        background: inherit;
+}
+
+#footer-content #fbox2 hr {
+		background-color: white;
+	border-style:dotted;
+}
+
+#footer-content #fbox2 #view 
+{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+        max-height: 400px;
+        overflow: auto;
+        
+}
+
+#footer-content #fbox2 #view table 
+{
+	width: auto;
+	border:1px solid black;
+	border-color: gray;
+	font-weight: bold;
+		border-spacing: 0px;
+                        max-height: 400px;
+        overflow: auto;
+}
+
+#footer-content #fbox2 #view table thead
+{
+	border:1px solid black;
+	border-color: gray;
+	font-weight: bold;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view table thead tr
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view table thead tr td
+{
+	text-transform: capitalize;
+	border:1px solid black;
+	border-color: gray;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 10px;
+	padding-right:10px;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view table tbody
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view table tbody tr
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view table tbody tr td
+{
+	border:1px solid black;
+	border-color: gray;
+	text-align: left;
+	border-spacing: 0px;
+	padding-left: 10px;
+	padding-right:10px;
+
+
+}
+#footer-content #fbox2 #view5
+{
+	padding-top: 20px;
+
+	padding-right: 20px;
+        max-height: 400px;
+        overflow: auto;
+        font-size: 14px;
+        
+}
+
+#footer-content #fbox2 #view5 table 
+{
+	width: auto;
+	border:1px solid black;
+	border-color: gray;
+	font-weight: bold;
+		border-spacing: 0px;
+                        max-height: 400px;
+        overflow: auto;
+
+}
+
+#footer-content #fbox2 #view5 table thead
+{
+	border:1px solid black;
+	border-color: gray;
+	font-weight: bold;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view5 table thead tr
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view5 table thead tr td
+{
+	text-transform: capitalize;
+	border:1px solid black;
+	border-color: gray;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 10px;
+	padding-right:10px;
+	border-spacing: 0px;
+        letter-spacing: 1px;
+
+}
+#footer-content #fbox2 #view5 table tbody
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+#footer-content #fbox2 #view5 table tbody tr
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+#footer-content #fbox2 #view5 table tbody tr td
+{
+	border:1px solid black;
+	border-color: gray;
+	text-align: center;
+	border-spacing: 0px;
+	padding-left: 10px;
+	padding-right:10px;
+                padding-top: 5px;
+        padding-bottom: 5px;
+
+
+}
+#footer-content #fbox2 #view2 
+{
+	padding-top: 20px;
+	padding-left: 10px;
+                max-height: 400px;
+        overflow: auto;
+        font-size: 14px;
+}
+
+#footer-content #fbox2 #view2 table 
+{
+
+	border:1px solid black;
+	border-color: gray;
+	font-weight: bold;
+	border-spacing: 0px;
+        margin-right: 10px;
+}
+
+#footer-content #fbox2 #view2 table thead
+{
+	border:1px solid black;
+	border-color: gray;
+	font-weight: bold;
+	border-spacing: 0px;
+
+}
+
+#footer-content #fbox2 #view2 table thead tr
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+        background-color: white;
+        color:black;
+                
+}
+
+#footer-content #fbox2 #view2 table thead tr td
+{
+	text-transform: capitalize;
+	border:1px solid black;
+	border-color: gray;
+	text-align: center;
+        font-size: 16px;
+	padding-left: 10px;
+	padding-right:10px;
+	border-spacing: 0px;
+        
+}
+
+#footer-content #fbox2 #view2 table tbody
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view2 table tbody tr
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view2 table tbody tr td 
+{
+	border:1px solid black;
+	border-color: gray;
+	text-align: left;
+	border-spacing: 0px;
+	padding-left: 10px;
+	padding-right:10px;
+        background-color: white;
+
+
+}
+
+#view4 table
+{
+    
+}
+
+.campaign_left
+{
+	border:1px solid black;
+	border-color: gray;
+	text-align: center;
+	border-spacing: 0px;
+	padding-left: 10px;
+	padding-right:10px;
+        background-color: #81AFC5;
+        text-align: right;
+
+
+}
+
+#footer-content #fbox2 #view3 
+{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-height:330px;
+	overflow-y:scroll;
+}
+
+#footer-content #fbox2 #view3 table 
+{
+	width: 100%;
+	border:1px solid black;
+	border-color: gray;
+	font-weight: bold;
+		border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view3 table thead
+{
+	border:1px solid black;
+	border-color: gray;
+	font-weight: bold;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view3 table thead tr
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view3 table thead tr td
+{
+	text-transform: capitalize;
+	border:1px solid black;
+	border-color: gray;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 10px;
+	padding-right:10px;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view3 table tbody
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view3 table tbody tr
+{
+	border:1px solid black;
+	border-color: gray;
+	border-spacing: 0px;
+}
+
+#footer-content #fbox2 #view3 table tbody tr td
+{
+	border:1px solid black;
+	border-color: gray;
+	text-align: center;
+	border-spacing: 0px;
+	padding-left: 10px;
+	padding-right:10px;
+
+
+}
+#footer-content #fbox2 #form
+{
+	padding-left: 20px;
+}
+.field
+{
+	width:300px;
+}
+#footer-content #fbox2 #form textarea
+{
+	width:300px;
+	height: 100px;
+}
+
+#footer-content #fbox2 #form select
+{
+	max-width:300px;
+
+}
+
+
+
+/* Banner Style */
+
+#banner-wrapper {
+	overflow: hidden;
+	height: 345px;
+	padding: 40px 0px;
+	background: url(../images/img03.png) repeat;
+}
+
+#banner {
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+}
+
+/* Button Style */
+
+.button-style {
+	display: inline-block;
+	margin-top: 30px;
+	padding: 7px 30px;
+	background: #1B2024;
+	border-radius: 5px;
+}
+
+.button-style a {
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+/* List Style 1 */
+
+ul.style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	padding: 20px 0px 20px 0px;
+	border-top: 1px dashed #E6E7DC;
+}
+
+ul.style1 a {
+	text-decoration: none;
+	color: #6B6B6B;
+}
+
+ul.style1 a:hover {
+	text-decoration: underline;
+	color: #6B6B6B;
+}
+
+ul.style1 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+/* List Style 2 */
+
+ul.style2 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+        background-color: white;
+
+}
+
+ul.style2 li {
+
+}
+
+
+ul.style2 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+/* List style 3 */
+
+ul.style3 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style3 li {
+	padding: 20px 0px 20px 0px;
+	background: url(../images/link-style1-divider.png) repeat-x left top;
+}
+
+ul.style3 p {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.style3 img {
+	float: left;
+	margin-top: 3px;
+	margin-right: 20px;
+}
+
+ul.style3 .posted {
+	padding: 10px 0px 0px 0px;
+	font-size: 8pt;
+	color: #A2A2A2;
+}
+
+ul.style3 .first {
+	padding-top: 0px;
+	background: none;
+}
+
+.campaign_left
+{
+	width:30%;
+}
+
+.campaign_code_textfield, .campaign_name_textfield, .campaign_target_textfield, .campaign_cost_textfield
+{
+	width: 300px;
+}
+
+.error_field
+{
+	width:200px;
+	color:red;
+	font-weight: bold;
+}
+
+#fbox2_table table
+{
+    width:600px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0px;
+    padding: 0px;
+      border-spacing:0;
+  border-collapse:collapse;
+}
+
+#fbox2_table table tr
+{
+    border-style: solid;
+    border-width: 1px;
+        margin: 0px;
+    padding: 0px;
+
+}
+#fbox2_table table tr th
+{
+    border-style: solid;
+    border-width: 1px;
+        margin: 0px;
+    padding: 0px;
+
+    
+}
+#fbox2_table table tr td
+{
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;  
+}
+
+.user_pass_passfield, .user_email_textfield
+{
+    width:130px;
+}
